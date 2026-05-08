@@ -1,0 +1,17 @@
+# =============================================================================
+# Inštalácia v čistom virtuálnom prostredí:
+#
+#   python3 -m venv .venv                    # vytvorenie .venv
+#   source .venv/bin/activate                # aktivácia (Linux/macOS)
+#   # .venv\Scripts\activate                 # aktivácia (Windows PowerShell)
+#   pip install -r requirements.txt          # inštalácia balíkov
+#   streamlit run pca_app.py                 # spustenie aplikácie
+#
+# Deaktivácia:  deactivate
+# Zmazanie:     rm -rf .venv
+# =============================================================================
+
+streamlit>=1.30
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
